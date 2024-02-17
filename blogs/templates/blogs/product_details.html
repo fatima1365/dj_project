@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title_page %}
+   Details
+{% endblock %}
+
+{% block header_reference %}
+    <link rel="stylesheet" href="{% static 'blogs/index.css' %}">
+    <link rel="stylesheet" href="{% static 'blogs/post_details.css' %}">
+{% endblock %}
+{% block content_page %}
+<ul style="direction: rtl">
+<h1>"{{ pro.title }}"</h1>
+<h3>قیمت : {{ pro.price }}</h3>
+<h3>توضیحات : {{ pro.description }}</h3>
+<h3>وضعیت :
+    {% if pro.is_active %}
+        Available
+     {% else %}
+        UnAvailable
+    {% endif %}
+    </h3>
+    </ul>
+{% endblock %}
+

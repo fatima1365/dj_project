@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00335aaf-f20a-484b-8883-3bdc6de07f87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/myweb_askari.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0002_product_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0003_productcategory_alter_product_options_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0004_productinformation_product_product_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/0005_producttag_product_product_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/all_post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c2.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c4.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c5.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c6.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/c7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/gerd 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/lachak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/شکارگاه.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/فرش-کاشان-قالی-کاشان-خرید-فرش-1200-شانه-طرح-ترنم-زمینه-آبی-کاربنی-گل-برجسته-کاشان.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/images/ماشینی 6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/static/blogs/post_details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/templates/blogs/all_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/templates/blogs/includes/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/templates/blogs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/templates/blogs/post_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/templates/blogs/product_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/templates/blogs/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/templates/contactus/changpass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/templates/contactus/contactuspage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/templates/contactus/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/templates/contactus/user_reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactus/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerd_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/home/home_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lachak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lachak_RZr3beb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lachak_ZoJFypB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lachak_c2OIrNr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lachak_enlg046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lachak_v2ql1ol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myweb_askari/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myweb_askari/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myweb_askari/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myweb_askari/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myweb_askari/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/فرش-کاشان-قالی-کاشان-خرید-فرش-1200-شانه-طرح-ترنم-زمینه-آبی-کاربنی-گل-برجسته-کاشان.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ماشینی_6.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2cBpUazVB8aQgdstV8o6nPxEB8q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.myweb_askari.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/Desktop/myweb_askari/db.sqlite3&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="myweb_askari" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myweb_askari" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myweb_askari.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00335aaf-f20a-484b-8883-3bdc6de07f87" name="Changes" comment="" />
+      <created>1707594843623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707594843623</updated>
+      <workItem from="1707594899480" duration="287000" />
+      <workItem from="1707595349460" duration="10917000" />
+      <workItem from="1707718830138" duration="3651000" />
+      <workItem from="1707722505513" duration="8205000" />
+      <workItem from="1707732576422" duration="6034000" />
+      <workItem from="1707740765953" duration="5136000" />
+      <workItem from="1707805050536" duration="27138000" />
+      <workItem from="1707887331640" duration="18093000" />
+      <workItem from="1707920231072" duration="12329000" />
+      <workItem from="1708000348721" duration="15197000" />
+      <workItem from="1708067171064" duration="4994000" />
+      <workItem from="1708104072954" duration="13776000" />
+      <workItem from="1708159774225" duration="7847000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

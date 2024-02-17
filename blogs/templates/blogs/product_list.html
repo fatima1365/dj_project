@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title-page %}
+    لیست محصولات
+{% endblock %}
+{% block header_reference %}
+    <link rel="stylesheet" href="{% static 'blogs/index.css' %}">
+    <link rel="stylesheet" href="{% static 'blogs/all_post.css' %}">
+{% endblock %}
+{% block content_page %}
+
+<body style="background-color: rgb(163,248,228)" >
+<ul dir="rtl"><h1> لیست محصولات : </h1></ul>
+<hr style="color: #e51919; ">
+<ul dir="rtl">
+    <h3>تعداد محصول قابل اراِئه :{{ numbers }}</h3>
+    <h3>میانگین قیمت محصولات : {{ info.price__avg }}</h3>
+    <h3>بالاترین قیمت : {{ info.price__max }}</h3>
+    <h3>پایینترین قیمت : {{ info.price__min }}</h3>
+
+</ul>
+<hr color="red">
+<div  style="line-height: 30px ; ">
+<ul dir="rtl">
+    {% for product in all_product  %}
+        <li>
+       <a href="{{ product.slug }}">{{ product.title }}</a>
+        <b>قیمت : </b>{{ product.price }}
+        <b>توضیحات : </b>{{ product.description }}
+        </li>
+    {% endfor %}
+</ul>
+</div>
+</body>
+{% endblock %}

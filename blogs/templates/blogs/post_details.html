@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header_reference %}
+    <link rel="stylesheet" href="{% static 'blogs/index.css' %}">
+    <link rel="stylesheet" href="{% static 'blogs/post_details.css' %}">
+{% endblock %}
+
+{% block title_page %}
+	{{ post.title|title }}
+{% endblock %}
+
+{% block content_page %}
+<section id="summary">
+<h1 >{{ post.title }}</h1>
+
+
+<article>
+    <main dir="rtl">
+    {{ post.content|linebreaks }}
+    </main>
+    <img src="{% static 'blogs/images/'|add:post.image %}" alt="{{ post.title }}">
+
+    <address >{{ post.author|title }}<br></address>
+<div dir="rtl"><br>
+     آخرین بروز رسانی :
+    <time >{{ post.date|date:"d m y" }}</time>
+</div>
+</article>
+
+</section>
+    {% endblock %}

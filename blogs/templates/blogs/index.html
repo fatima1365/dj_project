@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title_page %}
+   Carpet
+{% endblock %}
+
+
+{% block header_reference %}
+    <link rel="stylesheet" href="{% static 'blogs/index.css' %}" >
+{% endblock %}
+
+{% block content_page %}
+{##------------------------ sec  1#}
+    <section id="welcome">
+        <header>
+            <img src="{% static 'blogs/images/c5.jfif' %} "alt="programs">
+            <h2>Carpet Page</h2>
+
+        </header>
+    </section>
+
+{##------------------------ sec  2#}
+
+    <section id="latest-posts">
+        <h2>latest post</h2>
+
+        <ul>
+            {% for post in latest_posts %}
+                <li>
+                    {% include 'blogs/includes/post.html' %}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+{##------------------------ sec  3#}
+
+    <section id="about">
+        <h3>درباره سایت</h3>
+        <p>در این سایت ما تلاش کردیم درباره قدمت ، انواع و اهمیت<br> فرش دستباف ایرانی اطلاعات مختصری در اختیارتان بگذاریم .</p>
+        <p>قدیمی ترین فرش دستباف که کشف شده "پازیریک" نام دارد . </p>
+    </section>
+
+
+{% endblock %}

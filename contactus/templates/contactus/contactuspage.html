@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header_reference %}
+    <link rel="stylesheet" href="{% static 'blogs/index.css' %}">
+    <link rel="stylesheet" href="{% static 'blogs/all_post.css' %}">
+{% endblock %}
+
+{% block title_page %}
+     تماس با ما
+{% endblock %}
+{% block content_page %}
+
+ <ul><h1 dir="rtl" style="padding-right: 2.5rem">تماس با ما</h1></ul>
+
+ <form action="{% url 'contactus' %}" method="get" dir="rtl">
+    {% csrf_token %}
+<ul>
+    <input type="text" name="Email" , required="required">
+    <br>
+    <br>
+    <button type="submit" style="background-color: black; color: chartreuse">
+      <b>ارسال</b>
+    </button>
+</ul>
+
+ </form>
+
+
+{% endblock %}

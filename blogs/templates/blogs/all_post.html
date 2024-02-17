@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title-page %}
+    Carpet Types
+{% endblock %}
+{% block header_reference %}
+    <link rel="stylesheet" href="{% static 'blogs/index.css' %}">
+    <link rel="stylesheet" href="{% static 'blogs/all_post.css' %}">
+{% endblock %}
+{% block content_page %}
+
+<section id="all-posts">
+    <h2 > طرح های فرش دستباف </h2>
+<ul>
+    {% for post in all_post %}
+      <li>
+          {% include 'blogs/includes/post.html' %}
+      </li>
+
+    {% endfor %}
+</ul>
+</section>
+{% endblock %}
+
+

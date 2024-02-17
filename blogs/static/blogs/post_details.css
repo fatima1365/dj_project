@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right top, #00ffa2 , #b5caee);
+
+}
+
+#summary {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin : 10px auto;
+    background: linear-gradient(to right top, #00ffa2 , #00eefd);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+#summary h1 {
+    color: #0c0707;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+#summary article img {
+    width: 500px;
+    transform: rotateZ(0deg);
+    object-fit: cover;
+
+}
+
+#sum
+
+mary article address {
+    color: #e70d0d;
+    font-weight: bold;
+}
+
+#summary article div {
+    color: #e51919;
+}
+
+main {
+    max-width: 1300px;
+    margin: 30px auto;
+    background: linear-gradient(to left top, #00ffa2 , rgba(253, 168, 176, 0.99));
+    border-radius: 20px;
+    padding: 25px;
+}

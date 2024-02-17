@@ -1,0 +1,143 @@
+#main-navigation{
+    width: 100%;
+    height:5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 100px 30px 50px;
+    background: linear-gradient(to right top, #00ffa2 , #b5caee);
+
+
+    }
+    h1.welcome{
+        margin-left: 25px;
+    }
+
+    #main-navigation a{
+    text-decoration: none;
+    color: rgba(239,35,35,0.98);
+    font-weight: bold;
+    }
+
+    #main-navigation a:hover,
+    #main-navigation a:active{color: antiquewhite;}
+
+    #main-navigation h1 a:hover,
+    #main-navigation h1 a:active{color: antiquewhite;}
+
+
+    #welcome{
+        background: linear-gradient(to right top, #00ffa2 , #b5caee);
+    }
+
+    #welcome header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #welcome img{
+        width: 8rem;
+        height: 11rem;
+        object-fit: cover;
+        background-color: #ffe1bf;
+        transform: rotateZ(-6deg);
+        box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    }
+
+
+    #welcome h2{
+        font-size: 3.5rem;
+        margin: 0 0 0 2rem;
+        color: #00b2ff;
+        width: 10rem;
+
+    }
+
+    #welcome p{
+        color: rgba(239, 35, 35, 0.98);
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #latest-posts{
+        background: linear-gradient(to right top, #a6f1d5, #b5eeee);
+        padding: 2rem;
+        border-radius: 12px;
+        width: 60rem;
+        margin: 10px auto;
+        box-shadow: 1px 1px 12px rgba(0,0,0,.4);
+    }
+
+    #latest-posts h2{
+        text-align: center;
+    }
+
+    #latest-posts ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+    #latest-posts li{
+    flex: 1;
+    }
+
+    #about{
+        text-align: center;
+        padding: 3rem;
+        background-color: rgb(234, 167, 241);
+        margin-top: 5rem;
+    }
+    #about h3 {
+        font-size: 3rem;
+        color: white;
+    }
+
+    #about p {
+        font-size: 1.5rem;
+        color: #000000;
+    }
+
+    .post{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+    }
+
+    .post a {
+        text-decoration: none;
+        color: black;
+        transition: all ease .2s;
+        padding: 1rem;
+
+    }
+
+    .post a:active,
+    .post a:hover{
+        transform:scale(1.1) ;
+        background-color: #c8acea;
+        color: white;
+
+    }
+
+    .post img{
+        width: 300px;
+        border-radius: 10px;
+
+    }
+
+    .post a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
